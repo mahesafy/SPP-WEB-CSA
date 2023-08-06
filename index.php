@@ -14,11 +14,11 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span>CSA PROJECT</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="login-siswa.php">Siswa</a></li>
                     <li class="nav-item"><a class="nav-link " href="login-admin.php">Admin</a></li>
-                    
-                </ul><a class="btn btn-lg btn-primary shadow" role="button" href="login-siswa.php">START</a>
+                     -->
+                </ul><a class="btn btn-dark shadow" target="_blank" role="button" href="https://github.com/mahesafy/SPP-WEB-CSA">GITHUB</a>
             </div>
         </div>
     </nav>
@@ -30,8 +30,8 @@
                         <h1 class="display-4 fw-bold mb-5">Aplikasi Pembayaran SPP Sekolah</h1>
                         <p class="fs-5 text-muted mb-5">By Mahesa Ramadan &amp; Teguh Bagas</p>
                         <form class="d-flex justify-content-center flex-wrap" method="post">
-                            <div class="shadow-lg mb-3"></div>
-                            <div class="shadow-lg mb-3"></div>
+                            <div class="shadow-lg mb-3 me-4"><a class="btn btn-dark shadow" target="_blank" role="button" href="login-admin.php">Login Admin</a></div>
+                            <div class="shadow-lg mb-3 "><a class="btn btn-dark shadow" target="_blank" role="button" href="login-siswa.php">Login Siswa</a></div>
                         </form>
                     </div>
                 </div>
@@ -41,17 +41,6 @@
             </div>
         </div>
     </header>
-    <footer>
-        <div class="container py-4 py-lg-5">
-            <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-                <p class="mb-0">Copyright © 2023 CSA</p>
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><a href="https://github.com/mahesafy/SPP-WEB-CSA"><small class="form-text">GITHUB</small></a></li>
-                    <li class="list-inline-item"></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bold-and-bright.js"></script>
 </body>

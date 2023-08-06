@@ -37,9 +37,9 @@ $data = mysqli_fetch_array($query);
                         </div>
 
                         <div class="form-group row">
-                            <label class="col-sm-2" for="password">Password </i></label>
+                            <label class="col-sm-2" for="password">Ubah Password </i></label>
                             <div class="col-sm-10">
-                                <input name="password" value="<?php echo $data['password']; ?>" id="password" type="password" autocomplete="off" class="form-control form-control-warning">
+                                <input required name="password" value="" id="password" type="text" autocomplete="off" class="form-control form-control-warning">
                             </div>
                         </div>
 
@@ -62,7 +62,7 @@ $data = mysqli_fetch_array($query);
 
                         <div class="form-group row">
                             <div class="col-sm-10 offset-sm-2">
-                                <input type="submit" name="submit" class="btn btn-dark text-white" onClick="return confirm('Yakin Edit Data Admin?');">
+                                <input type="submit" name="submit" class="btn btn-dark text-white">
 
                             </div>
                         </div>

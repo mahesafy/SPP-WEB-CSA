@@ -18,7 +18,7 @@ if (!empty($_SESSION['status']) and $_SESSION['status'] == "login") {
 <body id="bg-login">
 
     <div class="kotak_login">
-        <h2 align="center">SILAHKAN LOGIN</h2>
+        <h2 align="center">LOGIN ADMIN</h2>
         <center><img src="./assets/img/logo-bines.jpg" alt="logo" class="logo" width="130" height="130"></center>
         <br>
         <form action="proses-login.php" method="POST" autocomplete="off">
