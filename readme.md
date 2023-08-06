@@ -1,9 +1,6 @@
 
 # APLIKASI PEMBAYARAN SPP 
-
-TUGAS PERTEMUAN 12 
-
-
+Web Based Pembayaran SPP Untuk Keperluan Presentasi CSA
 
 
 ## Authors
