@@ -1,12 +1,12 @@
 <?php
 require '../config/functions.php';
  session_start();
-// if (!isset($_SESSION["siswa"])) {
-//     echo "<script>
-//     alert('Anda harus login');
-//     document.location.href = '../../login-siswa.php';
-//     </script>";
-// }
+if (!isset($_SESSION["siswa"])) {
+    echo "<script>
+    alert('Anda harus login');
+    </script>";
+    header("Location: ../../login-siswa.php");
+}
 
 //panggil file header.php untuk menghubungkan konten bagian atas
 require '../view/header.php';
@@ -31,7 +31,7 @@ require '../view/nav-siswa.php';
                 $query = mysqli_query($conn, "SELECT * FROM siswa WHERE nisn = '" . $_SESSION['nisn'] . "'");
                 $cek = mysqli_fetch_assoc($query);
                 $nisn = $cek['nisn'];
-
+                
                 // if ($_SESSION['nisn'] != true) {
                 //     echo '<script>window.location="../../login-siswa.php"</script>';
                 // }
@@ -51,9 +51,6 @@ require '../view/nav-siswa.php';
                         <h4 class="float-left font-weight-bold text-dark pt-2">
                             Histori Pembayaran
                         </h4>
-                        <a href="../siswa/profile.php">
-                            <i class="fa fa-user fa-2x text-dark ml-4 mt-2"></i>
-                        </a>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">

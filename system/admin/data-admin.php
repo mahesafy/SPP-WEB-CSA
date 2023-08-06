@@ -31,7 +31,6 @@ require '../view/nav-admin.php';
                                 <tr class="bg-light">
                                     <th class="text-center">Nama</th>
                                     <th class="text-center">Username</th>
-                                    <th class="text-center">Password</th>
                                     <th class="text-center">Level</th>
                                     <th class="text-center">Aksi</th>
                                 </tr>
@@ -47,7 +46,6 @@ require '../view/nav-admin.php';
                                         <td class="text-center"><?php echo $data['nama_user']; ?></td>
 
                                         <td class="text-center"><?php echo $data['username']; ?></td>
-                                        <td class="color-blue-grey-lighter text-center">*****</td>
                                         <td class="text-center"><?php echo $data['level']; ?></td>
                                         <td class="text-center">
                                             <div class="btn-group btn-group-md" role="group" aria-label="Basic example">

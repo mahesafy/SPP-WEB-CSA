@@ -78,7 +78,7 @@ $nisnOtmts = $angka . sprintf("%03s", $urutan);
                         <div class="form-group row">
                             <label class="col-sm-2" for="password">Password</label>
                             <div class="col-sm-10">
-                                <input name="password" id="password" type="password" class="form-control form-control-success">
+                                <input name="password" id="password" type="text" class="form-control form-control-success">
                             </div>
                         </div>
 

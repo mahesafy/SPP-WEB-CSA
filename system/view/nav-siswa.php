@@ -40,6 +40,11 @@ $bln = array("", "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli",
                                 </a>
                             </li>
                             <li class="nav-item">
+                                <a href="../siswa/profile.php" class="nav-link text-white p-3 mb-2 current">
+                                    <i class="fa fa-user text-light fa-lg mr-3"></i>Profile
+                                </a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="../../logout-siswa.php" class="nav-link text-white p-3 mb-2 sidebar-link" onClick="return confirm('Yakin anda akan keluar?');">
                                     <i class="fa fa-sign-out text-light fa-lg mr-3"></i>LOGOUT
                                 </a>

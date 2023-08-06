@@ -32,7 +32,6 @@ require '../view/nav-admin.php';
                                     <th>Nisn</th>
                                     <th>Nis</th>
                                     <th>Nama</th>
-                                    <th>Password</th>
                                     <th>Kelas</th>
                                     <th>No Hp</th>
                                     <th class="text-center">Aksi</th>
@@ -49,7 +48,6 @@ require '../view/nav-admin.php';
                                         <td><?php echo $data['nisn']; ?></td>
                                         <td><?php echo $data['nis']; ?></td>
                                         <td><?php echo $data['nama']; ?></td>
-                                        <td>******</td>
                                         <td><?php echo $data['nama_kelas']; ?></td>
                                         <td><?php echo $data['no_tlp']; ?></td>
                                         <td align="center">

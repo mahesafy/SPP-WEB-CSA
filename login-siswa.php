@@ -1,8 +1,5 @@
 <?php
 session_start();
-if (!empty($_SESSION['status']) and $_SESSION['status'] == "login") {
-    header('location: system/siswa/home.php?harus-logout');
-}
 ?>
 <?php
 require 'system/config/functions.php';
