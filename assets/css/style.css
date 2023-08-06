@@ -1,0 +1,104 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+/* navbar */
+.sidebar {
+  height: 100vh;
+}
+.top-navbar {
+  margin-top: -50px;
+}
+
+.bottom-border {
+  border-bottom: 1px groove #c7e9ff;
+}
+
+.sidebar-link {
+  transition: all 0.4s;
+}
+
+.sidebar-link:hover {
+  background-color: #fd7e14;
+  border-radius: 5px;
+}
+
+.current {
+  transition: all 0.3s;
+}
+
+.current:hover {
+  background-color: #fd7e14;
+  border-radius: 7px;
+  box-shadow: 2px 5px 20px#111;
+  transform: translateX(-1px);
+}
+
+.search {
+  width: 350px;
+  padding: 8px 15px;
+  background: rgba(50, 50, 50, 0.2);
+  border: 0px solid #4169e1;
+}
+
+.button {
+  position: relative;
+  padding: 8px 15px;
+  left: -8px;
+  border: 2px solid #4169e1;
+  background-color: #4169e1;
+  color: #fafafa;
+}
+
+.button:hover {
+  background-color: #4169e1;
+  color: #c7e9ff;
+}
+
+.icon-parent {
+  position: relative;
+}
+
+.icon-bullet::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+  background-color: #4169e1;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .top-navbar {
+    position: static;
+  }
+}
+
+/* end navbar */
+
+/* card */
+.card-common {
+  background-color: #f0f3ff;
+  box-shadow: 1px 2px 5px #becafe;
+  transition: all 0.4s;
+}
+
+.card-common:hover {
+  box-shadow: 2px 3px 15px #becafe;
+  transform: translateY(-1px);
+}
+
+/* end card */
+
+/* task list */
+.task-border {
+  border-left: 3px solid #f66436;
+}

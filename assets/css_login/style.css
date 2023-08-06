@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500&display=swap');
+
+:root {
+  --orange: #ffa500;
+}
+
+body {
+  font-family: 'Shippori Antique', sans-serif;
+  background: #cacfd3;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 39%;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .logo span {
+  color: #fff;
+}
+
+header .logo .validasi2 {
+  color: #fff;
+}
+
+p {
+  text-align: center;
+}
+
+.kotak_login {
+  width: 320px;
+  background: #faf6f6;
+  /*meletakkan form ke tengah*/
+  margin: 100px auto;
+  padding: 30px 30px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 5%;
+}
+
+.tombol_login {
+  background: #282d31;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 1000ms ease;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.tombol_login:hover {
+  color: white;
+  background-color: #464e55;
+}
+
+.link {
+  font-size: 11pt;
+  text-decoration: none;
+}
+
+form input[type='text'] {
+  font-family: 'Raleway', sans-serif;
+}
+
+form input[type='submit'] {
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+}
+
+.box {
+  position: absolute;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  width: 280px;
+  margin-left: 5%;
+  top: 10%;
+}
+
+.box h1 {
+  font-size: 1.5rem;
+  font-weight: 160;
+}
+
+.box .teks {
+  animation: fade 6000ms ease;
+  font-weight: 160;
+}
+
+@keyframes fade {
+  from {
+    transition: 10s ease;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    font-weight: 160;
+  }
+}
+
+@keyframes fade-tutup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .kotak_login {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .form_login {
+    flex-direction: column;
+  }
+}
