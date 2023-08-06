@@ -22,5 +22,5 @@ TUGAS PERTEMUAN 12
 - Extract semua file ke folder yang ingin kamu gunakan
 - Impor file ```database.sql ``` 
   di folder database ke database kamu
-- atur konfigurasi database kamu di folder ```system/config/koneksi.php``` sesuaikan dengan username, password dan nama database yang kamu buat/
+- Atur konfigurasi database kamu di folder ```system/config/koneksi.php``` sesuaikan dengan username, password dan nama database yang kamu buat
 - Done.
