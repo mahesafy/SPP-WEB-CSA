@@ -10,7 +10,7 @@ Web Based Pembayaran SPP Untuk Keperluan Presentasi CSA
 
 ## Installation
 
-- Download Repository ini dengan tekan tombol Download Zip/ atau dari Release atau bisa pake
+- Download Repository ini dengan tekan tombol Download Zip atau dari Release atau bisa pake
 
 ```bash
  git clone https://github.com/mahesafy/SPP-WEB-CSA.git
