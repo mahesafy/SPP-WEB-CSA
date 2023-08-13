@@ -99,13 +99,13 @@ require '../view/nav-admin.php';
                     </div>
                 </div>
                 <!-- Tambahkan elemen canvas untuk grafik -->
-                <canvas id="barChart" width="50" height="25"></canvas>
+                <!-- <canvas id="barChart" width="50" height="25"></canvas> -->
             </div>
         </div>
     </div>
 
 </section>
-
+<!-- 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         // Ambil elemen canvas grafik
@@ -157,7 +157,7 @@ require '../view/nav-admin.php';
             options: options,
         });
     });
-</script>
+</script> -->
 <!-- 
 <div class="container-fluid">
     <br>
